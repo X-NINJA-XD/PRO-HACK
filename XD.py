@@ -13,7 +13,7 @@ except:
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('Sarfraz.so'):
-        os.system('curl -L https://github.com/Peaky-XD/X-SERVER/blob/main/pro.cpython-311.so?raw=true -o pro.so') 
+        os.system('curl -L https://github.com/Peaky-XD/X-SERVER/blob/main/pro.so?raw=true -o pro.so') 
         import pro
     else:
         import Sarfraz
